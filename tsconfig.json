@@ -1,0 +1,27 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noEmit": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "dist",
+    // "allowJs": false,
+    "declarationDir": "dist/types",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2018"
+    ],
+    "experimentalDecorators": true
+//    "allowJs": true
+  }
+}
