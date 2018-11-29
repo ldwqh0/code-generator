@@ -58,18 +58,22 @@ export default {
       let fields: Field[] = []
       for (let i = 1; i < data.length; i++) {
         let col = data[i]
-        let { type, length } = getColumnDefine(col[1])
-        let filed: Field = {
-          name: getFieldName(col[0]),
-          columnName: col[0],
-          type: type,
-          comment: col[3],
-          nullable: col[2] === 'NO' ? true : false
+        try {
+          let { type, length } = getColumnDefine(col[1])
+          let filed: Field = {
+            name: getFieldName(col[0]),
+            columnName: col[0],
+            type: type,
+            comment: col[3],
+            nullable: col[2] === 'NO' ? true : false
+          }
+          if (length !== undefined) {
+            filed.length = length
+          }
+          fields.push(filed)
+        } catch (e) {
+          console.error('读取错误,发生在sheet', name, '第', i, '行')
         }
-        if (length !== undefined) {
-          filed.length = length
-        }
-        fields.push(filed)
       }
 
       result.push({
