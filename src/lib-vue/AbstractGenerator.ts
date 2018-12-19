@@ -10,11 +10,9 @@ export default abstract class AbstractGenerator {
 
   generate (cls: Entity) {
     let content = this.getContent(cls)
-    let target = path.resolve(this.target)
     let filename = this.getFileName(this.target, cls)
     fs.mkdir(path.dirname(filename), { recursive: true }, () => {
-      let fileName = filename
-      fs.writeFile(fileName, content, 'utf8', err => {
+      fs.writeFile(filename, content, 'utf8', err => {
         if (err) {
           console.error(err)
         }

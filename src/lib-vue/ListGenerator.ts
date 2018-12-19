@@ -37,7 +37,7 @@ export default class ListGenerator extends AbstractGenerator {
       </el-form>
       <ele-data-tables :server-params="searchObj"
                        :ajax="ajax">
-        ${cls.fields.map(toTableColumn)}
+        ${cls.fields.map(toTableColumn).join('')}
         <el-table-column label="操作" :min-width="60">
            <template slot-scope="scope">
              <el-button type="text" size="small" @click="edit(scope.row)">编辑</el-button>
