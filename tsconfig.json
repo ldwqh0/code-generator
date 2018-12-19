@@ -15,6 +15,7 @@
     "outDir": "dist",
     // "allowJs": false,
     "declarationDir": "dist/types",
+    "resolveJsonModule": true,
     "lib": [
       "ES2015",
       "ES2016",
@@ -22,6 +23,6 @@
       "ES2018"
     ],
     "experimentalDecorators": true
-//    "allowJs": true
+    //    "allowJs": true
   }
 }

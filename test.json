@@ -1,0 +1,5858 @@
+[
+  {
+    "tableName": "cde_age",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": "编号"
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "proportion_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_comfortable",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "aqi_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "comfortable_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_flow",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_gender",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_history",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_profession",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_sentiment",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "title_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cde_stop",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "proportion_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_brigades",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_region_tourist",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_sentiment",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "title_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_tourist_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_tourist_behavior",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_tourist_consumption",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_tourist_flow",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "today_flow_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "today_bus_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "today_railway_go_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "today_railway_to_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "month_flow_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "com_tourist_traffic",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_attractions_com_acc",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "acceptance_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "complaint_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_cicerone",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "good_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "bad_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_company_red_black",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "is_red_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 1,
+        "type": "BIT",
+        "dataType": -7,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_complaint",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "reson_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "channel_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_complaint_trend",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_complaint_type",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "cre_region_com_acc",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "acceptance_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "complaint_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_city_cost",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "city_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "city_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_time_cost",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_age",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "proportion_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_behavior",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_consumption",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_gender",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "gender_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_profession",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_tourist_stop",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "proportion_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "eco_traffic_cost",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ent_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "parking_lot_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "comfort_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "video_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "score_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "voice_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "wifi_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ent_hotel",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "avg_money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "max_money",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "min_money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "scope_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "level_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ent_line",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "income2",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "income4",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "volume2",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "volume3",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "volume1",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "volume4",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "income1",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "income3",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "flo_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "flo_real_all_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "flo_real_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "stop_car_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "min_money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "max_money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "level_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "satisfaction_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "hol_4a_count",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "hol_hot_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "hol_region_tourist",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "hol_tourist_count",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "qm_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "gq_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "cj_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "yd_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "ld_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "money_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "dw_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "zq_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ind_cicerone_age",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ind_cicerone_gender",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ind_count",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "wc_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "hotel_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "shoping_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "attractions_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "play_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "travel_number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "ind_product_count",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "pro_consumption",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "pro_tourist",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 1,
+        "type": "BIT",
+        "dataType": -7,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "pro_tourist_traffic",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "pro_trip",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "proportion_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_emotion",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_info",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_keyword",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "keyword_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_media",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_region",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sen_top",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "title_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_first_attractions",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_flow_income",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "income_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "flow_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "year_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "month_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_search",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_search_hot_keyword",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "keyword_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_search_industry",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_tourist_behavior",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 12,
+        "type": "FLOAT",
+        "dataType": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_tourist_top",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "sub_vehicle",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "parent_type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "number_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "tableName": "weather",
+    "catalog": "show_test",
+    "schema": null,
+    "comment": null,
+    "columns": [
+      {
+        "columnName": "current_date_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "DATE",
+        "dataType": 91,
+        "comment": ""
+      },
+      {
+        "columnName": "id",
+        "autoincrement": true,
+        "nullable": false,
+        "length": 19,
+        "type": "BIGINT",
+        "dataType": -5,
+        "comment": ""
+      },
+      {
+        "columnName": "region_name_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "day_high_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "night_type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "night_high_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "day_low_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "night_low_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "update_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "region_code_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "create_time_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 26,
+        "type": "DATETIME",
+        "dataType": 93,
+        "comment": ""
+      },
+      {
+        "columnName": "week_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "day_type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 255,
+        "type": "VARCHAR",
+        "dataType": 12,
+        "comment": ""
+      },
+      {
+        "columnName": "type_",
+        "autoincrement": false,
+        "nullable": true,
+        "length": 10,
+        "type": "INT",
+        "dataType": 4,
+        "comment": ""
+      }
+    ]
+  }
+]

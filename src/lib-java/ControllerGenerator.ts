@@ -7,6 +7,8 @@ export default class ControllerGenerator extends AbstractGenerator {
   }
 
   getContent (cls: Entity): string {
+    let serviceName: string = `${this.lowCaseFirstChar(cls.className)}Service`
+    let converterName: string = `${this.lowCaseFirstChar(cls.className)}Converter`
     return `
 package ${cls.packageName}.${this.subPackage};
 
@@ -46,33 +48,35 @@ import static org.springframework.http.HttpStatus.*;
 public class ${cls.className}Controller {
 
 	@Autowired
-	private ${cls.className}Service ${cls.className}Service;
+	private ${cls.className}Service ${serviceName};
 
 	@Autowired
-	private ${cls.className}Converter ${cls.className}Converter;
+	private ${cls.className}Converter ${converterName};
 
 	@PostMapping
+	@ResponseStatus(CREATED)
 	public ${cls.className}Dto save(@RequestBody ${cls.className}Dto data) {
-		${cls.className} model = ${cls.className}Service.save(data);
-		return ${cls.className}Converter.toDto(model);
+		${cls.className} model = ${serviceName}.save(data);
+		return ${converterName}.toDto(model);
 	}
 
 	@GetMapping("{id}")
 	public ${cls.className}Dto get(@PathVariable("id") Long id) {
-		Optional<${cls.className}> data = ${cls.className}Service.findById(id);
-		return ${cls.className}Converter.toDto(data);
+		Optional<${cls.className}> data = ${serviceName}.findById(id);
+		return ${converterName}.toDto(data);
 	}
 
 	@PutMapping("{id}")
+	@ResponseStatus(CREATED)
 	public ${cls.className}Dto update(@PathVariable("id") Long id, @RequestBody ${cls.className}Dto data) {
-		${cls.className} model = ${cls.className}Service.update(id, data);
-		return ${cls.className}Converter.toDto(model);
+		${cls.className} model = ${serviceName}.update(id, data);
+		return ${converterName}.toDto(model);
 	}
 
 	@DeleteMapping
 	@ResponseStatus(NO_CONTENT)
 	public void delete(@PathVariable("id") Long id) {
-		${cls.className}Service.delete(id);
+		${serviceName}.delete(id);
 	}
 
 	@GetMapping(params = { "draw" })
@@ -81,8 +85,8 @@ public class ${cls.className}Controller {
 			@CurrentUser UserDetailsDto user,
 			@ModelAttribute ${cls.className}Dto condition,
 			@PageableDefault Pageable pageable) {
-		Page<${cls.className}> ${cls.className} = ${cls.className}Service.find(pageable);
-		return TableResultDto.success(draw, ${cls.className}, data->${cls.className}Converter.toDto(data));
+		Page<${cls.className}> ${cls.className} = ${serviceName}.find(pageable);
+		return TableResultDto.success(draw, ${cls.className}, ${converterName}::toDto);
 	}
 }
 `

@@ -10,7 +10,7 @@ declare module 'node-xlsx' {
 
 declare interface Field {
   /**
-   * 字段的名称
+   * java类字段的名称
    */
   name: string,
   /**
@@ -30,7 +30,7 @@ declare interface Field {
    */
   nullable?: boolean,
   /**
-   * 字段名称
+   * 表字段名称
    */
   columnName: string
 
@@ -42,7 +42,7 @@ declare interface Entity {
    */
   superClass: string,
   /**
-   * 名字
+   * 实体名字，数据库中的表名
    */
   eintityName: string,
 

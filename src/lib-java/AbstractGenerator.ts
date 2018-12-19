@@ -13,6 +13,10 @@ export default abstract class AbstractGenerator {
     this.classSuffix = classSuffix
   }
 
+  lowCaseFirstChar (str: string) {
+    return str.substring(0, 1).toLowerCase() + str.substring(1)
+  }
+
   generate (cls: Entity) {
     let content = this.getContent(cls)
     let target = path.resolve(this.path, ...this.subPackage.split('.'))

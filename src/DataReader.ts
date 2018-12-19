@@ -1,6 +1,7 @@
 // import './@types'
 import xlsx, { WorkSheet } from 'node-xlsx'
 import config from '../config/config'
+import { getClassName, getFieldName } from './utils'
 
 const typeMap = new Map<string, string>()
 typeMap.set('bigint', 'Long')
@@ -9,19 +10,6 @@ typeMap.set('date', 'LocalDate')
 typeMap.set('datetime', 'ZonedDateTime')
 typeMap.set('varchar', 'String')
 typeMap.set('float', 'Float')
-
-function upcaseFirstChar (str: string): string {
-  return str.substring(0, 1).toUpperCase() + str.substring(1)
-}
-
-function lowcaseFirstChar (str: string): string {
-  try {
-    return str.substring(0, 1).toLocaleLowerCase() + str.substring(1)
-  } catch (e) {
-    console.error('转换小写错误', str, e)
-    return ''
-  }
-}
 
 function getColumnDefine (columnStr: string): { type: string, length?: number } {
   let defines = columnStr.split(/(\(|\))/)
@@ -40,14 +28,6 @@ function getColumnDefine (columnStr: string): { type: string, length?: number } 
     console.error(sqlType, 'not found')
   }
 
-}
-
-function getClassName (name: string): string {
-  return name.split('_').map(str => upcaseFirstChar(str)).join('')
-}
-
-function getFieldName (name: string): string {
-  return lowcaseFirstChar(name.split('_').map(str => upcaseFirstChar(str)).join(''))
 }
 
 export default {
