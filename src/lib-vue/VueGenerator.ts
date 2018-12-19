@@ -13,7 +13,7 @@ export default class VueGenerator {
   generate (entities: Entity[]) {
     for (let entity of entities) {
       this.formGenerator.generate(entity)
-      // this.listGenerator.generate(entity)
+      this.listGenerator.generate(entity)
     }
   }
 }

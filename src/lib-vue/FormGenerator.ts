@@ -52,7 +52,7 @@ export default class FormGenerator extends AbstractGenerator {
   }
 
   getContent (cls: Entity): string {
-    let actionModuleName = `${lowcaseFirstChar(cls.className)}`
+    let vuxModuleName = `${lowcaseFirstChar(cls.className)}`
     return `<!--${cls.comment}-->
 <template>
   <el-container>
@@ -100,13 +100,13 @@ export default class FormGenerator extends AbstractGenerator {
     
     readonly = true
 
-    @${actionModuleName}Module.Action('save')
+    @${vuxModuleName}Module.Action('save')
     saveData
 
-    @${actionModuleName}Module.Action('get')
+    @${vuxModuleName}Module.Action('get')
     getData
     
-    @${actionModuleName}Module.Action('update')
+    @${vuxModuleName}Module.Action('update')
     updateData
 
     save () {
