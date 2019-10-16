@@ -1,12 +1,14 @@
-import {Entity, Options} from '../typings'
+import { Entity, Field, Options } from '../typings'
 import path from 'path'
 import fs from 'fs'
+import BaseTypes from './BaseTypes'
+import utils from '../utils'
 
 export default class ConverterGenerator {
-  generate ({entity, option}: { entity: Entity, option: Options }) {
+  generate ({ entity, option }: { entity: Entity, option: Options }) {
     let content = getContent(entity, option)
     let dir = path.resolve(option.target, 'converter')
-    fs.mkdir(dir, {recursive: true}, (err) => {
+    fs.mkdir(dir, { recursive: true }, (err) => {
       if (!err) {
         fs.writeFile(path.resolve(path.resolve(dir, `${entity.name}Converter.java`)), content, err => {
           if (err) {
@@ -18,71 +20,41 @@ export default class ConverterGenerator {
   }
 }
 
-function getContent ({name, fields, file, valueType}: Entity, {packageName}: Options) {
-  let p = ''
-  if (name.startsWith('Day')) {
-    p = 'AbstractDayDataConverter'
-  } else if (name.startsWith('Hour')) {
-    p = 'AbstractHourDataConverter'
-  } else if (name.startsWith('Month')) {
-    p = 'AbstractMonthDataConverter'
-  } else if (name.startsWith('Year')) {
-    p = 'AbstractYearDataConverter'
-  }
+function getContent ({ name, fields, file }: Entity, { packageName }: Options) {
   return `package ${packageName}.converter;
 
 import org.springframework.stereotype.Component;
 
-import ${packageName}.converter.core.${p};
-import ${packageName}.dto.cs.${name}Dto;
-import ${packageName}.entity.cs.${name};
+import com.dm.common.converter.AbstractConverter;
+import ${packageName}.dto.${name}Dto;
+import ${packageName}.entity.${name};
 
 @Component
-public class ${name}Converter extends ${p}<${name}, ${name}Dto, ${valueType}> {
+public class ${name}Converter extends AbstractConverter<${name}, ${name}Dto> {
 
 \t@Override
-\tprotected ${name}Dto getDto() {
-\t\treturn new ${name}Dto();
+\tprotected ${name}Dto toDtoActual(${name} model) {
+\t\t${name}Dto dto = new ${name}Dto();
+\t\tdto.setId(model.getId());
+${fields.map(field => copyFunction(field, { source: 'model', target: 'dto' })).join('\r\n')}
+\t\treturn dto;
 \t}
 
-${getToDtoFunction({name, fields, file, valueType})}
-
-${generateCopyPropertiesFunction({name, fields, file, valueType})}
-
+\t@Override
+\tpublic ${name} copyProperties(${name} model, ${name}Dto dto) {
+${fields.map(field => copyFunction(field, { source: 'dto', target: 'model' })).join('\r\n')}
+\t\treturn model;
+\t}
 }`
 }
 
-function getToDtoFunction ({name, fields}: Entity) {
-  if (fields.length > 0) {
-    return `\t@Override
-\tprotected ${name}Dto toDtoActual(${name} model) {
-\t\t${name}Dto dto = super.toDtoActual(model);
-    ${
-  fields.map(({name, type}) => {
-    return name.slice(0, 1).toUpperCase() + name.slice(1)
-  }).map(name => `\t\tdto.set${name}(model.get${name}());`).join(`\r\n`)
-}
-\t\treturn dto;
-\t}`
+function copyFunction ({ name, type }: Field, { target, source }: { target: string, source: string }) {
+  if (BaseTypes.includes(type)) {
+    return `\t\t${target}.set${utils.upCaseFirstChar(name)}(${source}.get${utils.upCaseFirstChar(name)}());`
   } else {
-    return ''
+    return `\t\t// TODO 需要手动处理
+    // ${target}.set${utils.upCaseFirstChar(name)}();`
   }
 }
 
-function generateCopyPropertiesFunction ({name, fields}: Entity) {
-  if (fields.length > 0) {
-    return `\t@Override
-\tpublic ${name} copyProperties(${name} model, ${name}Dto dto) {
-\t\t${name} model_ = super.copyProperties(model, dto);
-${
-  fields.map(({name, type}) => {
-    return name.slice(0, 1).toUpperCase() + name.slice(1)
-  }).map(name => `\t\tmodel_.set${name}(dto.get${name}());`).join(`\r\n`)
 
-}
-\t\treturn model_;
-\t}`
-  } else {
-    return ``
-  }
-}

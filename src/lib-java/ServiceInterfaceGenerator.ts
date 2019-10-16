@@ -23,12 +23,27 @@ export default class ServiceInterfaceGenerator {
 function getContent ({name}: Entity, {packageName}: Options) {
   let content = `package ${packageName}.service;
 
-import ${packageName}.dto.cs.${name}Dto;
-import ${packageName}.entity.cs.${name};
+import java.util.Optional;
 
-public interface ${name}Service extends BaseIndexService<${name}, ${name}Dto> {
+import org.springframework.data.domain.Pageable;
 
-}`
+import com.dm.common.dto.RangePage;
+import ${packageName}.dto.${name}Dto;
+import ${packageName}.entity.${name};
+
+public interface ${name}Service {
+
+\tpublic ${name} save(${name}Dto dto);
+
+\tpublic ${name} update(Long id, ${name}Dto dto);
+
+\tpublic void delete(Long id);
+
+\tpublic Optional<${name}> findById(Long id);
+
+\tpublic RangePage<${name}> list(Long maxId, Pageable pageable);
+}
+`
 
   return content
 }

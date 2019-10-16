@@ -4,9 +4,9 @@ require('ts-node').register({ files: true })
 require('ts-node')
 // require('../../dm-datacenter/data-show/src/main/java/com/dm/data/show/entity/cs')
 require('./src/lib-java/generator-java').generate({
-  source: path.resolve('D:\\Users\\LiDong\\Projects\\dmzl\\流动党员管理系统\\server\\src\\main\\java\\cm\\sofmit\\pm\\entity'),
+  source: path.resolve('D:\\Users\\LiDong\\Projects\\dmzl\\流动党员管理系统\\server\\src\\main\\java\\com\\sofmit\\pm\\entity'),
   target: path.resolve(__dirname, 'dist'),
-  packageName: 'com.dm.data.show'
+  packageName: 'com.sofmit.pm'
 })
 // require('./src/lib-vue/generator-vue').generate({
 //   source: path.resolve('../../dm-datacenter/data-show/src/main/java/com/dm/data/show/entity/cs'),

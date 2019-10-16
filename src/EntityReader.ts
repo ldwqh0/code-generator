@@ -46,13 +46,6 @@ function listFields (entity: Entity): Promise<Entity> {
           .map(line => line.split(' '))
           .map(([p, type, name]) => ({ type, name }))
         entity.fields = lines
-        let [valueType] = content.split('\n')
-          .filter(line => line.indexOf('class') > 0)
-          .map(line => line.split('<'))
-          .map(([a, b]) => b)
-          .map(line => line.split('>'))
-          .map(([a]) => a)
-        entity.valueType = valueType
         resolve(entity)
       } else {
         reject(error)
