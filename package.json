@@ -1,0 +1,24 @@
+{
+  "name": "code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generator-java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldwqh0/code-generator.git"
+  },
+  "author": "ldwqh0@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldwqh0/code-generator/issues"
+  },
+  "homepage": "https://github.com/ldwqh0/code-generator#readme",
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
