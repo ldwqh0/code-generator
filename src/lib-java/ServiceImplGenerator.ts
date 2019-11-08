@@ -3,27 +3,27 @@ import fs from 'fs'
 import path from 'path'
 
 export default class ServiceImplGenerator {
-  generate ({entity, option}: { entity: Entity, option: Options }) {
-    let f = getContent(entity, option)
-    let dir = path.resolve(option.target, 'service', 'impl')
-    fs.mkdir(dir, {recursive: true}, (err) => {
-      if (!err) {
-        fs.writeFile(path.resolve(dir, `${entity.name}ServiceImpl.java`), f, (error) => {
-          if (error) {
-            console.error('generate service impl success', entity, error)
-          }
+    generate({entity, option}: { entity: Entity, option: Options }) {
+        let f = getContent(entity, option)
+        let dir = path.resolve(option.target, 'service', 'impl')
+        fs.mkdir(dir, {recursive: true}, (err) => {
+            if (!err) {
+                fs.writeFile(path.resolve(dir, `${entity.name}ServiceImpl.java`), f, (error) => {
+                    if (error) {
+                        console.error('generate service impl success', entity, error)
+                    }
+                })
+            }
         })
-      }
-    })
-  }
+    }
 }
 
 // packageName com.dm.data.show
 
-function getContent ({name}: Entity, {packageName}: Options) {
-  let lName = name.slice(0, 1).toLowerCase() + name.slice(1)
+function getContent({name}: Entity, {packageName}: Options) {
+    let lName = name.slice(0, 1).toLowerCase() + name.slice(1)
 
-  let content = `package ${packageName}.service.impl;
+    let content = `package ${packageName}.service.impl;
 
 import java.util.Objects;
 import java.util.Optional;
@@ -94,11 +94,11 @@ public class ${name}ServiceImpl implements ${name}Service {
 \t\t} else {
 \t\t\tmaxToSet = maxId;
 \t\t}
-\t\tquery.and(q${name}.id.loe(maxId));
+\t\tquery.and(q${name}.id.loe(maxToSet));
 \t\tPage<${name}> result = ${lName}Repository.findAll(query, pageable);
 \t\treturn RangePage.of(maxToSet, result);
 \t}
 
 }`
-  return content
+    return content
 }

@@ -1,47 +1,45 @@
-import { Entity, Options } from '../typings'
+import {Entity, Options} from '../typings'
 import fs from 'fs'
 import path from 'path'
 
 export default class ControllerGenerator {
-  generate ({ entity, option }: { entity: Entity, option: Options }) {
-    let f = getContent(entity, option)
-    let dir = path.resolve(option.target, 'controller')
-    fs.mkdir(dir, { recursive: true }, (err) => {
-      if (!err) {
-        fs.writeFile(path.resolve(dir, `${entity.name}Controller.java`), f, (error) => {
-          if (error) {
-            console.error('generate service impl success', entity, error)
-          }
+    generate({entity, option}: { entity: Entity, option: Options }) {
+        let f = getContent(entity, option)
+        let dir = path.resolve(option.target, 'controller')
+        fs.mkdir(dir, {recursive: true}, (err) => {
+            if (!err) {
+                fs.writeFile(path.resolve(dir, `${entity.name}Controller.java`), f, (error) => {
+                    if (error) {
+                        console.error('generate service impl success', entity, error)
+                    }
+                })
+            }
         })
-      }
-    })
-  }
+    }
 }
 
 // packageName com.dm.data.show
 
-function getContent ({ name }: Entity, { packageName }: Options) {
-  let lName = name.slice(0, 1).toLowerCase() + name.slice(1)
+function getContent({name}: Entity, {packageName}: Options) {
+    let lName = name.slice(0, 1).toLowerCase() + name.slice(1)
 
-  let content = `package ${packageName}.controller;
+    let content = `package ${packageName}.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dm.common.dto.RangePage;
-import com.dm.common.dto.TableRequest;
-import com.dm.common.dto.TableResult;
 import ${packageName}.converter.${name}Converter;
 import ${packageName}.dto.${name}Dto;
 import ${packageName}.entity.${name};
@@ -82,14 +80,14 @@ public class ${name}Controller {
 \t\treturn ${lName}Converter.toDto(${lName}Service.findById(id));
 \t}
 
-\t@GetMapping(params = { "draw" })
-\tpublic TableResult<${name}Dto> list(
-\t\t\t@ModelAttribute TableRequest request,
+\t@GetMapping
+\tpublic RangePage<${name}Dto> list(
+\t\t\t@RequestParam(value = "maxId",required = false) Long maxId,
 \t\t\t@PageableDefault Pageable pageable) {
-\t\tRangePage<${name}> result = ${lName}Service.list(request.getMaxId(), pageable);
-\t\treturn TableResult.success(request, result, ${lName}Converter::toDto);
+\t\tRangePage<${name}> result = ${lName}Service.list(maxId, pageable);
+\t\treturn result.map(${lName}Converter::toDto);
 \t}
 }
 `
-  return content
+    return content
 }
